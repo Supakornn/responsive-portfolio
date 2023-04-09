@@ -495,34 +495,6 @@ img {
     color: var(--first-color-lighten);
 }
 
-/* Projects */
-.project {
-    background-color: var(--first-color);
-    padding-bottom: 0;
-}
-
-.project__container {
-    row-gap: 2rem;
-}
-
-.project__data {
-    text-align: center;
-}
-
-.project__title,
-.project__description {
-    color: var(--first-color-lighten);
-}
-
-.project__description {
-    margin-bottom: var(--mb-4);
-}
-
-.project__img {
-    width: 220px;
-    justify-self: center;
-}
-
 /* Footer */
 .footer {
     background-color: var(--first-color-darken);
@@ -600,26 +572,6 @@ img {
 
     .education__time {
         padding: 0 2rem;
-    }
-
-    .project {
-        background: none;
-    }
-
-    .project__container {
-        background-color: var(--first-color);
-        grid-template-columns: 2fr 1.2fr;
-        padding: 0 2rem;
-        border-radius: 0.5rem;
-    }
-
-    .project__data {
-        padding: 3rem 0;
-    }
-
-    .project__title,
-    .project__data {
-        text-align: initial;
     }
 
     .footer {
