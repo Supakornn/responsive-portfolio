@@ -362,30 +362,33 @@ img {
     background-color: var(--first-color);
 }
 
-.skills__html {
-    width: 80%;
-}
-
-.skills__css {
+.skills__react {
     width: 70%;
 }
 
-.skills__js {
+.skills__ts {
     width: 70%;
 }
 
-.skills__node {
-    width: 80%;
+.skills__svelte {
+    width: 50%;
 }
 
-.skills__php {
-    width: 80%;
+.skills__go {
+    width: 50%;
 }
 
-.skills__python {
+.skills__ts {
     width: 70%;
 }
 
+.skills__next {
+    width: 70%;
+}
+
+.skills__nest {
+    width: 60%;
+}
 /* Education */
 .education__container {
     row-gap: 2rem;
